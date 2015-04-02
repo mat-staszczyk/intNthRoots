@@ -2,7 +2,7 @@
 
 using namespace std;
 
-char *results(float, int=0);
+void results(float, int=0);
 float nthRoot (float, float);
 
 int main()
@@ -30,7 +30,7 @@ int main()
     return 0;
 }
 
-char *results(float rs, int u) {
+void results(float rs, int u) {
     if (u==1) {
         cout << endl << "Undefined result." << endl;
         cin.get();

@@ -11,17 +11,20 @@ int main()
     cout << endl << "Set root's degree:" << endl;
     cin >> n;
 
-    float result = 0;
+    float result;
     if (r==0 && n<=0) {
-        cout << endl << "Undefined result." << result << endl;
+        cout << endl << "Undefined result." << endl;
+        cin.get();
         return 0;
     } else if (r==0) {
         result = 0;
         cout << endl << "Your result is " << result << "." << endl;
+        cin.get();
         return 0;
     } else if (r==1 && n>=0) {
         result = 1;
         cout << endl << "Your result is " << result << "." << endl;
+        cin.get();
         return 0;
     } else if (n<0) {
         r = 1/r;

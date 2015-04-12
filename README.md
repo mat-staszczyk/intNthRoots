@@ -1,2 +1,2 @@
 # intNthRoots
-Reeeaaaalllyyy simply nth roots algorithm
+Simple nth roots algorithm made in C++.
